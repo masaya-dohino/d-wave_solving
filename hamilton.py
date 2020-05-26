@@ -91,7 +91,7 @@ qubo, offset = model.to_qubo(feed_dict=feed_dict)
 #dwave 計算
 
 sampler = EmbeddingComposite(DWaveSampler())
-response = sampler.sample_qubo(qubo,num_reads =5000)
+response = sampler.sample_qubo(qubo,num_reads =5000)　#アニーリング試行回数
 
 if detail == True:
 
