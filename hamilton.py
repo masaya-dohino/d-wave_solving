@@ -69,7 +69,7 @@ def func3(N,bi,G):
     
     return ans3
 
-# エネルギー関数の定義
+# エネルギー関数の定義（ハミルトン経路問題のイジングモデル）
 
 H1 = func1(num,x)
 H2 = func2(num,x)
@@ -127,4 +127,4 @@ if detail == True:
 
 else:
 
-    print(list(response.data())[0])
+    print(list(response.data())[0])　#出力
